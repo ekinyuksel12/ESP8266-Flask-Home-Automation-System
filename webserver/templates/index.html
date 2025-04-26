@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title id="title">{{title}}</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <h2 id="time">Time = {{time}}</h2>
+        <h3>{{data}}</h3>
+        
+        <div class="btn-group">
+            <span>
+                <form action="/on/" method="post">
+                    <button name="forwardBtn" style="margin-top: 0%;" type="submit">on</button>
+                    <button name="forwardBtn" class="button red" type="submit">off</button>
+                    <button name="forwardBtn" class="button blue" type="submit">show</button>
+                </form>
+            </span>
+
+            <span>
+                <form action="/on/" method="post">
+                    <button name="forwardBtn" style="margin-top: 0%;" type="submit">on</button>
+                    <button name="forwardBtn" class="button red" type="submit">off</button>
+                    <button name="forwardBtn" class="button blue" type="submit">show</button>
+                </form>
+            </span>
+            
+            <span>
+                <form action="/on/" method="post">
+                    <button name="forwardBtn" style="margin-top: 0%;" type="submit">on</button>
+                    <button name="forwardBtn" class="button red" type="submit">off</button>
+                    <button name="forwardBtn" class="button blue" type="submit">show</button>
+                </form>
+            </span>
+        </div>
+
+    </body>
+</html>

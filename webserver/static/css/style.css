@@ -1,0 +1,61 @@
+body {
+    background-color: #33372F;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    color: #F2E5D7;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.btn-group {
+    margin-top: 30%;
+    column-count: 3;
+    column-rule: 1px solid #F2E5D7;
+}
+
+.btn-group button {
+    background-color: #62D435; /* Green */
+    border: none;
+    position: relative;
+    left: 25%;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 25px;
+    color: #F2E5D7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.btn-group button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.2);
+}
+
+.btn-group button:active {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #4B8632;
+    transform: translateY(-1px);
+}
+
+.btn-group .red {
+    background-color: #C30C09;
+}
+
+.btn-group .red:active {
+    background-color: #7B221C;
+}
+
+.btn-group .blue {
+    background-color: #41DADC;
+}
+
+.btn-group .blue:active {
+    background-color: #1C999B;
+}
