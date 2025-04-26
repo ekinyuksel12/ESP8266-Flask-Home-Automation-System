@@ -1,4 +1,4 @@
-# Home Automation Project
+# ESP8266-Flask Home Automation System
 
 This repository contains a home automation project that integrates an ESP8266 microcontroller with a Flask-based web server. The project allows remote control of GPIO pins on the ESP8266 via a web interface.
 
